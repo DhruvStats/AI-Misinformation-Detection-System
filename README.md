@@ -128,12 +128,12 @@ The architecture follows a **Client–Server Model**, ensuring modularity and sc
 ```bash
 uvicorn backend.main:app --reload
 
-**### 2 Run Frontend**
+### 2 Run Frontend
 
 ```bash
 streamlit run app.py
 
-**### 3 Docker**
+### 3 Docker
 
 ```bash
 docker build -t misinformation-app .
@@ -144,16 +144,16 @@ docker run -p 8000:8000 misinformation-app
 
 Through this project, we gained hands-on experience in:
 
-- **LLM inference pipelines** – Understanding how input text flows through tokenization, transformer layers, and prediction generation during real-time inference.
+- LLM inference pipelines – Understanding how input text flows through tokenization, transformer layers, and prediction generation during real-time inference.
 
-- **Prompt engineering** – Designing structured prompts to guide the Large Language Model toward accurate and consistent classification results.
+- Prompt engineering – Designing structured prompts to guide the Large Language Model toward accurate and consistent classification results.
 
-- **Client–server architecture** – Building a modular system where the frontend (Streamlit) communicates with the backend (FastAPI) through REST APIs.
+- Client–server architecture – Building a modular system where the frontend (Streamlit) communicates with the backend (FastAPI) through REST APIs.
 
-- **Evaluation of NLP systems** – Applying metrics such as Accuracy, Precision, Recall, and F1-score to measure model performance and identify weaknesses.
+- Evaluation of NLP systems – Applying metrics such as Accuracy, Precision, Recall, and F1-score to measure model performance and identify weaknesses.
 
-- **Model robustness testing** – Testing system behavior under varied and edge-case inputs to evaluate stability and reliability.
+- Model robustness testing – Testing system behavior under varied and edge-case inputs to evaluate stability and reliability.
 
-- **Deployment using Docker** – Containerizing the application to ensure portability, reproducibility, and consistent execution across environments.
+- Deployment using Docker – Containerizing the application to ensure portability, reproducibility, and consistent execution across environments.
 
-- **Full-stack AI system design** – Integrating frontend UI, backend APIs, machine learning models, logging, and evaluation into a complete production-style AI application.
+- Full-stack AI system design – Integrating frontend UI, backend APIs, machine learning models, logging, and evaluation into a complete production-style AI application.
