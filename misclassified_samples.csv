@@ -1,0 +1,5 @@
+text,true_label,predicted,confidence
+Aliens officially land in New York City.,Fake News,Real News,0.53
+Government hiding secret time travel machine.,Fake News,Real News,0.59
+Drinking bleach cures all diseases.,Fake News,Real News,0.619
+Moon made of cheese confirms scientist.,Fake News,Real News,0.758
