@@ -1,7 +1,0 @@
-predictions(
-    id,
-    text,
-    prediction,
-    response_time,
-    created_at
-)
