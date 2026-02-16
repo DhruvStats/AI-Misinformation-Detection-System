@@ -2,7 +2,6 @@
 
 ## Team Members
 - Wagh Dhruv Arun
-- Tooba Naeem
 
 ## Problem Statement
 Detect fake news automatically using Large Language Models.
