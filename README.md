@@ -128,16 +128,22 @@ The architecture follows a **Client–Server Model**, ensuring modularity and sc
 ```bash
 uvicorn backend.main:app --reload
 
-### 2 Run Frontend
+---
+
+### **2 Run Frontend**
 
 ```bash
 streamlit run app.py
 
-### 3 Docker
+----
+
+** ### 3 Docker **
 
 ```bash
 docker build -t misinformation-app .
 docker run -p 8000:8000 misinformation-app
+
+----
 
 
 ## 📌 Learning Outcomes
