@@ -88,10 +88,10 @@ The architecture follows a **Client–Server Model**, ensuring modularity and sc
 
 | Metric    | Value |
 |-----------|--------|
-| Accuracy  | (Insert Your Value) |
-| Precision | (Insert Your Value) |
-| Recall    | (Insert Your Value) |
-| F1 Score  | (Insert Your Value) |
+| Accuracy  | (0.6552) |
+| Precision | (0.5652) |
+| Recall    | (1.0) |
+| F1 Score  | (0.7222) |
 
 ### Observations:
 - Slight bias toward predicting "Real News"
