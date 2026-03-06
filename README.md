@@ -1,11 +1,5 @@
 # 📰 LLM-Based Misinformation Detection System
 
-## 👥 Team Members
-- **Wagh Dhruv Arun**
-- **Tooba Naeem**
-
----
-
 ## 🚀 Project Overview
 
 This project presents a **Full-Stack AI-powered Misinformation Detection System** that leverages a **Large Language Model (LLM)** to classify news articles as *Real* or *Fake*.
